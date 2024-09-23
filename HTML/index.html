@@ -1,23 +1,20 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="C:\Users\PC\Documents\resc2s\CSS\index.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <style>
 
-      
+    <title>Code2Solve</title>
 
-    </style>
   </head>
-
-  <body>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <body id="body">
 
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container-fluid">
@@ -27,18 +24,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Courses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li> 
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li> 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Instructors
@@ -53,7 +42,18 @@
         </div>
     </nav>
 
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -61,26 +61,37 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="C:\Users\PC\Documents\resc2s\IMAGES\nnp.PNG" class="d-block w-100" alt="..." style="height:700px;">
+            <img src="C:\Users\PC\Documents\resc2s\IMAGES\nnp.PNG" class="d-block w-100" alt="..." style="height: 700px;">
             <div class="carousel-caption d-none d-md-block">
-    
-              <h1 class="lead text-primary fw-normal display-6">Welcome to C2S where we bring out the best in you</h1>
+              <p>Welcome to <span class="logo">c2s</span> where we <br> bring out the best in you.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="C:\Users\PC\Documents\resc2s\IMAGES\nnp2.PNG" class="d-block w-100" alt="..." style="height:700px;">
+            <img src="C:\Users\PC\Documents\resc2s\IMAGES\nnp2.PNG" class="d-block w-100" alt="..." style="height: 700px;">
             <div class="carousel-caption d-none d-md-block">
-              
-              <h3>In here we bring your creativity to life</h3>
+              <h5>Second slide label</h5>
+              <p>In here we bring your creativity to life.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="C:\Users\PC\Documents\resc2s\IMAGES\nnp3.jpg" class="d-block w-100" alt="..." style="height:700px;">
+            <img src="C:\Users\PC\Documents\resc2s\IMAGES\nnp3.jpg" class="d-block w-100" alt="..." style="height: 700px;">
             <div class="carousel-caption d-none d-md-block">
-              
-            <h3>You will learn to work with others as a team</h3>
+              <h5>Third slide label</h5>
+              <p>You will learn to work with others as a team.</p>
             </div>
           </div>
+
+         <div class="container mt-3 text-left me-5">
+             <div class="row justify-content-end">
+                 <div class="col-lg-4 col-md-6 col-12">
+                     <button class="btn btn-light text-dark blinking-btn rounded-pill py-2 wide-button height-button mt-custom btn-right" 
+                       style="width: 70%; height: 9%;">
+                         Create Account <i class="bi bi-arrow-right"></i>
+                     </button>  
+                 </div>
+             </div>
+         </div>
+         
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -90,190 +101,330 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
-
-      <br><br><br>
-
-      <div class="container-fluid">
-
-      <div class="container-fluid mt-5">
-      <div class="row align-items-center">
-       
-        <div class="col text-right">
-
-          <i class="bi bi-person-workspace border rounded-pill border-4 ms-1 ps-4 pe-3 border-warning" style="font-size:8rem; color: orange;"></i>
-          
-          <h2 class="lead text-primary fst-italic fw-light" style="font-size: 2rem;">Physical Instructors</h2>
-
-          <p class="lead fw-bold fst-italic mt-4" style="font-size: 1.1rem;"> Just to make sure that you are provided <br> support on-the-go, a physical instructor is
-                <br> with you on every class session.
-           </p>
-
-        </div>
-    
-        <div class="col text-right">
-
-          <i class="bi bi-laptop border rounded-pill border-4 ms-1 ps-4 pe-3 border-dark" style="font-size:8rem; color: black;"></i>
-
-          <h2 class="lead text-primary fst-italic fw-light" style="font-size: 2rem;">Practical Lessons</h2>
-
-          <p class="lead fw-bold fst-italic mt-4" style="font-size: 1.1rem;"> We understand that coding is not only <br>by reading coding books, so we designed all the <br> courses to be taught with live practicals.</p>
-          </p>
-
-        </div>
-    
-       
-        <div class="col text-right">
-
-          
-          <i class="bi bi-diagram-3 border rounded-pill border-4 ms-1 ps-4 pe-3 border-primary"  style="font-size:8rem; color:blue;"></i>
-
-          <h2 class="lead text-primary fst-italic fw-light" style="font-size: 2rem;">Projects</h2>
-
-          <h2 class="lead text-primary fst-italic fw-light" style="font-size: 2rem;"></h2>
-
-          <p class="lead fw-bold fst-italic mt-4" style="font-size: 1.1rem;">
-            To help deepen your understanding and gain code experience, you will work on  projects with your instructor
-          </p>
-
-        </div>
-
-      </div>
     </div>
-    
+
     <div class="container-fluid">
 
-      <div class="container-fluid mt-5">
-      <div class="row align-items-center">
+        <div class="container-fluid mt-5">
+        <div class="row align-items-center">
+          
+          <div class="col text-left">
+  
+            <i class="bi bi-file-text border rounded-pill border-4 ms-1 ps-4 pe-3" style="font-size:8rem; color:brown; border-color:brown !important;"></i>
+            
+            
+            <h2 class="lead text-primary fst-italic fw-light" style="font-size: 2rem;">Planned Curriculum</h2>
+  
+            <p class="lead fw-bold fst-italic mt-4" style="font-size: 1.1rem;"> Our course is a already planned out  with curriculum that 
+              cover thevprofessional and skill sets needs of each course.
+             </p>
+  
+          </div>
+      
+          <div class="col text-left">
+  
+            <i class="bi bi-journal-code border rounded-pill border-4 ms-1 ps-4 pe-3 border-burlywood" style="font-size:8rem; color:burlywood; border-color: burlywood !important;"></i>
+  
+            <h2 class="lead text-primary fst-italic fw-light" style="font-size: 2rem;">Lessons Notes</h2>
+  
+            <p class="lead fw-bold fst-italic mt-4" style="font-size: 1.1rem;">We decided to take it futher! Lesson  notes are provided for 
+              you on our student platform to help you review  each lesson</p>
+            </p>
+  
+          </div>
+      
+          <div class="col text-left">
+  
+            
+            <i class="fas fa-certificate custom-icon text-success border rounded-pill border-4 ms-1 ps-4 pe-3 pt-4 pb-4 border-green" style="font-size:8rem; color:green; border-color:green !important;"></i>
+  
+  
+            <h2 class="lead text-primary fst-italic fw-light" style="font-size: 2rem;">Verifiable Certificate</h2>
+  
+            <h2 class="lead text-primary fst-italic fw-light" style="font-size: 2rem;"></h2>
+  
+            <p class="lead fw-bold fst-italic mt-4" style="font-size: 1.1rem;">
+              To help deepen your understanding and gain code experience, you will work on projects with your instructor
+            </p>
+  
+          </div>
+  
+        </div>
+      </div>
+  
+      <div class="container-fluid container-custom">
+        <div class="container mt-5">
+            <div class="row justify-content-center align-items-start">
+                <!-- Lightbulb Icon with Text -->
+                <div class="col-md-2 text-start mb-1 icon-text">
+                    <i class="bi bi-lightbulb" style="font-size:8rem; color:yellow;"></i>
+                    <p class="lead fw-light text-normal mb-0 text-info">Started in Four Simple Steps</p>
+                </div>
+  
+                <div class="col-sm-10">
+                    <div class="row">
+                        <div class="col-lg-9 mb-5 mx-auto">
+                            <div class="alert alert-info text-center h-15 d-flex align-items-center justify-content-start"
+                                role="alert">
+                                Starting your software development journey has been made easy for you. Simply use the 4
+                                easy steps, and in no time, you are already coding with our passionate instructors.
+                            </div>
+                             
+                            <br><br>
+                            <div class="row mt-3">
+                                <div class="col-sm-12 col-lg-6 mb-3">
+                                    <div
+                                        class="step-container border-start border-top border-success border-5 rounded-pill">
+                                        <p class="lead fw-bold text-center text-dark"><strong>1<br><br>CHOOSE A
+                                                COURSE<br>Decide a course</strong><br><br></p>
+                                        <p class="lead pb-3 text-center text-dark">To decide helps to keep a
+                                            laser focused attention on whatever course you choose. You may take more
+                                            than one course. or speak with a coordinator for advise.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-6 mb-3">
+                                    <div
+                                        class="step-container-dark border-top border-end border-warning border-5 rounded-pill">
+                                        <p class="lead fw-bold text-center"><strong>2<br><br>Create Account<br>Enroll in for the course
+                                              </strong><br><br></p>
+                                        <p class="lead pb-3 text-center">Once you have identified your interest and have
+                                            chosen a course, you will be required to create an account on the website.
+                                            Then enroll in your desired course.</p>
+                                    </div>
+                                </div>
+                            </div>
+  
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-6 mb-3">
+                                    <div
+                                        class="step-container-green text-light border-start border-top border-danger border-5 rounded-pill">
+                                        <p class="lead fw-bold text-center"><strong>3<br><br>PAY FOR TUITION<br>Choose a
+                                                Payment Plan</strong><br><br></p>
+                                        <p class="lead fw-light text-center">We have different payment methods. You can
+                                            pay by making a transfer to our bank account (shown after your <a id=""
+                                                href="course.html">course</a> enrollment), or by cash.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-6 mb-3">
+                                    <div
+                                        class="step-container-black rounded-pill border-top border-end border-info border-5">
+                                        <p class="lead fw-bold text-center"><strong>4<br><br>REQUEST SCHEDULE<br>Enroll in
+                                                for the course</strong><br><br></p>
+                                        <p class="lead fw-light text-center">Knowing the schedule of your course is very important. 
+                                          Know when you have class and attend. You can request your schedule by calling our <a id="fd"
+                                                href="Tel:8050940143">Front Desk.</a></p>
+                                    </div>
+                                </div>
+                            </div>
+  
+                        </div>
+                    </div>
+  
+                   <div class="container mt-3 text-left">
+                       <div class="row justify-content-start">
+                           <div class="col-12 col-md-6 col-lg-4">
+                               <button class="btn btn-light text-dark blinking-btn rounded-pill w-100 py-2 wide-button height-button">
+                                   Create Account
+                               </button>
+                           </div>
+                       </div>
+                   </div>
+                   
+                   
+  
+                </div>
+            </div>
+        </div>
+     </div>
+     
+     <br><br>
+     <br><br>
+  
+     <div class="container-fluid">
+       <h2 class="text-center my-4">What Past Students Say About Our Program</h2>
         
-        <div class="col text-right">
-
-          <i class="bi bi-file-text border rounded-pill border-4 ms-1 ps-4 pe-3 border-brown" style="font-size:8rem; color:brown;"></i>
+       <br><br>
+  
+       <div class="container mt-4">
+         <!-- First Row -->
+         <div class="row mb-5">
+           <!-- First Image -->
+           <div class="col-md-3">
+             <img src="C:\Users\PC\Documents\resc2s\IMAGES\pic111.PNG" class="rounded rounded-pill mb-3" alt="Description of the image" width="200" height="200">
+           </div>
+       
+           <!-- First Paragraph -->
+           <div class="col-md-3 d-flex align-items-start">
+             <p class="mt-1"> <span class="logo">C2S</span> has really changed my career in programming. They have really shown me the right path to 
+              take. Not only that, but they also elevated me to where I am today. I advise anyone who is out there with a passion for programming to
+               choose <span class="logo">C2S</span> school like I did, and I am sure that <span class="logo">C2S</span> will not disappoint you.</p>
+           </div>
+       
+           <!-- Second Image -->
+           <div class="col-md-3">
+             <img src="C:\Users\PC\Documents\resc2s\IMAGES\pic2222.PNG" class="rounded rounded-pill mb-3" alt="..." width="200" height="200">
+           </div>
+       
+           <!-- Second Paragraph -->
+           <div class="col-md-3 d-flex align-items-center">
+             <p class="mt-1">I am an ex-student of <span class="logo">C2S</span>. I took a web development course before I discovered <span class="logo">C2S</span>.
+               I was afraid of how hard it is to take a career in web development, but <span class="logo">C2S</span> made me believe that I don't need
+                to fear but to believe in myself. They saw what I could not see within myself for a long time; they brought out that skill within me.
+                 Mr. Kandi was not just my instructor but my mentor, and today I am one of the best web developers at my company where I work.</p>
+           </div>
+         </div>
+     
+         <!-- Second Row -->
+         <div class="row">
+           <!-- Third Image -->
+           <div class="col-md-3">
+             <img src="C:\Users\PC\Documents\resc2s\IMAGES\pic3333.PNG" class="rounded rounded-pill mb-3" alt="Description of the image" width="200" height="200">
+           </div>
+       
+           <!-- Third Paragraph -->
+           <div class="col-md-3 d-flex align-items-start">
+             <p class="mt-1">The class are well conductive and well equip. The instructors are very skilled and they understood everthing they teach,
+               before I started the program I was a computer illiterate, then I took a course under app development but with the help of
+                <span class="logo">C2S</span> instructors and especially Mr Kandi people now call me the computer genius.</p>
+           </div>
+       
+           <!-- Fourth Image -->
+           <div class="col-md-3">
+             <img src="C:\Users\PC\Documents\resc2s\IMAGES\pic9999.PNG" class="rounded rounded-pill mb-3" alt="..." width="200" height="200">
+           </div>
+       
+           <!-- Fourth Paragraph -->
+           <div class="col-md-3 d-flex align-items-center">
+             <p class="mt-1">I am an ex-student of <span class="logo">C2S</span>. I took a Python course before I got to discover <span class="logo">C2S</span>.
+               I was quite not sure if I could do it but <span class="logo">C2S</span> gave me confidence to pursue my dreams as a data analyst. 
+               Thanks to them, today I achieved my dreams. So I say to others, if you have a dream, <span class="logo">C2S</span> will teach you not
+                just programming but also how never to give up.</p>
+           </div>
+         </div>
+       </div>
+      </div>
+      
+      <br><br>
+  
+      <div class="container-fluid" style="background-color:rgb(41, 41, 210);">
+  
+        <h2 class="display-6 text-center text-light fw-light" style="font-size: 3rem;">Need Help? We're Here For You</h2>
           
-          <h2 class="lead text-primary fst-italic fw-light" style="font-size: 2rem;">Planned Curriculum</h2>
-
-          <p class="lead fw-bold fst-italic mt-4" style="font-size: 1.1rem;"> Our course is a already planned out <br> with curriculum that cover the <br>
-            professional and skill sets needs of each course.
-           </p>
-
-        </div>
-    
-        <div class="col text-right">
-
-          <i class="bi bi-journal-code border rounded-pill border-4 ms-1 ps-4 pe-3 border-burlywood" style="font-size:8rem; color:burlywood;"></i>
-
-          <h2 class="lead text-primary fst-italic fw-light" style="font-size: 2rem;">Lessons Notes</h2>
-
-          <p class="lead fw-bold fst-italic mt-4" style="font-size: 1.1rem;">We decided to take it futher! Lesson <br> notes are provided for you on our <br>student platform to help you review <br> each lesson</p>
-          </p>
-
-        </div>
-    
-        <div class="col text-right">
-
+        
+          <br><br><br><br>
+  
+          <div class="row text-white pb-5">
+            <!-- FAQ Section -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <i class="bi bi-question-lg" style="font-size: 6rem;"></i>
+              <p class="lead fw-light mt-2" style="font-size: 1.3em;">Frequently Asked Questions</p>
           
-          <i class="fas fa-certificate custom-icon text-success border rounded-pill border-4 ms-1 ps-4 pe-3 pt-4 pb-4 border-green" style="font-size:8rem; color:green;"></i>
-
-
-          <h2 class="lead text-primary fst-italic fw-light" style="font-size: 2rem;">Verifiable Certificate</h2>
-
-          <h2 class="lead text-primary fst-italic fw-light" style="font-size: 2rem;"></h2>
-
-          <p class="lead fw-bold fst-italic mt-4" style="font-size: 1.1rem;">
-            To help deepen your understanding and gain code experience, you will work on projects with your instructor
-          </p>
-
+              <p class="lead fw-light mt-4" style="font-size: 1.3em;">Provided answers you could possibly ask have already been given to you.</p>
+          
+              <a href="faqs.html">
+                <button type="button" class="btn btn-outline-light rounded-pill mt-4 w-100 p-2">
+                  FAQS <i class="bi bi-arrow-right"></i>
+                </button>
+              </a>
+            </div>
+          
+            <!-- WhatsApp Support Section -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <i class="bi bi-whatsapp" style="font-size: 6rem;"></i>
+              <p class="lead fw-light mt-2" style="font-size: 1.3em;">WhatsApp Support</p>
+          
+              <p class="lead fw-light mt-4" style="font-size: 1.3em;">Make enquiries, ask questions to get the support you need.</p>
+          
+              <a href="https://api.whatsapp.com/send?phone=+2349039300774&text=Hello I want to apply to Code2Solve">
+                <button type="button" class="btn btn-outline-light rounded-pill mt-4 w-100 p-2">
+                  WhatsApp Support <i class="bi bi-arrow-right"></i>
+                </button>
+              </a>
+            </div>
+          
+            <!-- Call Support Section -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <i class="bi bi-telephone-fill" style="font-size: 6rem;"></i>
+              <p class="lead fw-light mt-2" style="font-size: 1.3em;">Call Support</p>
+          
+              <p class="lead fw-light mt-4" style="font-size: 1.3em;">You can also call to make enquiries and ask questions to get the support you need.</p>
+          
+              <a href="Tel:8050940143">
+                <button type="button" class="btn btn-outline-light rounded-pill mt-4 w-100 p-2">
+                  Call Support <i class="bi bi-arrow-right"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+      </div>
+          
+      <p style="font-size:12px;" id="break"> break </p>    
+  
+  <footer class="footer" style="background-color:#333; color:white; padding:20px;">
+    <div class="container" style="background-color: #333;">
+      <div class="row">
+        <!-- Company Section -->
+        <div class="col-md-4 mb-3">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled" style="margin-bottom:16px;">
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Community Program</li>
+            </ul>
+          </div>
+        
+        <!-- Quick Links Section -->
+        <div class="col-md-4 mb-3">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled" style="margin-bottom:16px;">
+              <li>Press</li>
+              <li>Careers</li>
+              <li>Google Review</li>
+              <li>View Certificate</li>
+            </ul>
         </div>
-
+        
+        <!-- Legal Section -->
+        <div class="col-md-4 mb-3">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled" style="margin-bottom:16px;">
+              <li>Refunds</li>
+              <li>Disclaimer</li>
+              <li>Privacy Policy</li>
+              <li>Terms Of Use</li>
+            </ul>
+        </div>
+      <div class="text-center my-3">
+        <a href="#top" class="text-light"><i class="fas fa-arrow-up" style="font-size:40px;"></i></a>
+      </div>
+  
+      <div class="text-center mb-3">
+        <p class="font-weight-bold"><span class="logo">C2S</span></p>
+      </div>
+  
+      <hr class="bg-light">
+  
+      <div class="text-center mb-3">
+        <a href="#" class="text-light mx-2"><i class="fab fa-twitter-square" style="font-size:33px;"></i></a>
+        <a href="#" class="text-light mx-2"><i class="fab fa-instagram" style="font-size:33px;"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61556010783688" class="text-light mx-2"><i class="fab fa-facebook-square" style="font-size:33px;"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=+2349039300774&text=Hello I want to apply to Code2Solve" class="text-light mx-2"><i class="fab fa-whatsapp-square" style="font-size:33px;"></i></a>
+        <a href="mailto:codesolve8@gmail.com" class="text-light mx-2"><i class="fas fa-mail-bulk" style="font-size:33px;"></i></a>
+        <a href="#" class="text-light mx-2"><i class="fab fa-github-square" style="font-size:33px;"></i></a>
+      </div>
+  
+      <div class="text-center">
+        <p>2023 <span class="font-weight-bold" style="color: orange;">Code2Solve</span> Ltd. All rights reserved</p>
+        <p>Made by <span class="font-weight-bold" style="color:orange;">C2S</span> Student with <i class="fas fa-heart text-danger"></i></p>
       </div>
     </div>
-
-    <div class="container-fluid" style="background-color: rgb(41, 41, 210);">
-      <br><br><br>
+  </footer>
   
-        <div class="container mt-5">
-          <div class="row justify-content-center align-items-start">
-            <!-- Lightbulb Icon -->
-            <div class="col-md-2 text-start mb-4">
-              <i class="bi bi-lightbulb" style="font-size:8rem; color:yellow;"></i>
-            </div>
-        
-            <div class="col-sm-10">
-              <div class="row">
-
-                <div class="container-lg my-5">
-
-                  <div class="row justify-content-center">
-                
-                    <div class="col-sm-4 col-lg-6">
-                
-                      <div class="p-5  text-light border-start border-top border-success border-5 rounded-pill" style="height: 88%; background-color: pink;">
-                
-                        <p class="lead fw-bold text-center text-dark" style="font-size:1rem;"> <b> 1 <br><br> CHOOSE A COURSE<br> Decide a Specilization</b><br> <br> </p>
-                
-                        <p class="lead pb-3 text-center text-dark" style="font-size:1.2rem;">Specilization helps you to keep a laser focused attention on  whatever  course you choose. You may take more than one course. 
-                           You should speak with a program coordinator if you are not sure  of what path to take.
-                        </p>
-                
-                      </div>
-                
-                    </div>
-                
-                    <div class="col-sm-4 col-lg-6">
-                
-                      <div class="p-5 text-light  rounded-pill border-top border-end border-warning border-5" style="height:90%; background-color: rgb(227, 183, 183);">
-                
-                        <p class="lead fw-bold text-center text-light" style="font-size:1rem;"> <b> 2 <br><br> Create Account<br> Decide a Specilization</b><br> <br> </p>
-                
-                        <p class="lead pb-3 text-center text-light" style="font-size:1.2rem;">Once you have identified your interest and have choosen a  course, you will be
-                           required to create an account on the website. Then enroll your desires course.
-                       </p>
-                
-                      </div>
-                
-                    </div>
-                
-                  </div>
-                
-                </div>
-                
-                
-                
-                <div class="container-lg my-5">
-                
-                  <div class="row justify-content-center">
-                
-                    <div class="col-sm-4 col-lg-6">
-                
-                      <div class="p-5  text-light border-start border-top border-danger border-5 rounded-pill" style="height: 88%; background-color: green;">
-                
-                        <p class="lead fw-bold text-center text-light" style="font-size:1rem;"> <b> 3 <br><br> PAY FOR TUTION<br> Choose a Payment Plan<br></b> <br></p>
-                        <p class="lead fw-light text-center text-light" style="font-size:1.2rem;">We have different payment methods you can pay by making a transfer to 
-                           our bank account (shown after your <a id="" href="course.html">course</a> enrollment), or by cash.</p> 
-                
-                      </div>
-                
-                    </div>
-                
-                    <div class="col-sm-4 col-lg-6">
-                
-                      <div class="p-5 rounded-pill border-top border-end border-info border-5" style="height:95%; width: 100%; background-color:black; color:pink;">
-                
-                        <p class="lead fw-bold text-center" style="font-size:1rem;"> <b> 4 <br><br> REQUEST SCHEDULE<br> Enroll in for the course</b><br> <br></p>
-                        <p class="lead fw-light text-center">Knowing the schedule of your course can help you plan your time effectively.  an know when you have class and Plan to attend
-                           all classes. You should request your schedule by calling our <a  id= "fd" href="Tel:8050940143"> Front Desk.</a></p>
-                
-                      </div>
-                
-                    </div>
-                
-                  </div>
-                
-                </div>
-        
-    </div>
-  
-
 
   </body>
 </html>
+
+
+
+
+

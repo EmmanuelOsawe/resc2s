@@ -44,4 +44,132 @@
       .border-aqua{
         border-color: aqua !important;
       }
-  
+
+      .custom-position {
+        display: flex;
+        align-items: center; /* Centers vertically */
+        justify-content: flex-start; /* Aligns items to the start */
+        height: 100vh; /* Full viewport height */
+        padding-left: 150px; /* Custom left padding */
+        
+    }
+    
+#stcr {
+  position: relative;
+  top: -450px;
+  left: -330px;
+  color:white;
+  font-weight: bolder;
+}
+
+.lead {
+  font-size: 1rem;
+  }
+
+.text-normal {
+    font-weight: normal;
+  }
+
+.text-info {
+    color: #17a2b8;
+  }
+
+.step-container,
+.step-container-dark,
+.step-container-green,
+.step-container-black {
+  padding: 1rem;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.step-container {
+  background-color: pink;
+}
+
+.step-container-dark {
+  background-color: rgb(227, 183, 183);
+  color: #f8f9fa; /* light text */
+}
+
+.step-container-green {
+  background-color: green;
+  color: #f8f9fa; /* light text */
+}
+
+.step-container-black {
+  background-color: black;
+  color: pink;
+}
+
+.container-custom {
+  background-color: rgb(41, 41, 210);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.icon-text p {
+   margin-left: 1rem;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blinking-btn {
+    animation: blink 1s infinite;
+}
+
+.blinking-btn:hover {
+  animation-play-state: paused; /* Pause the animation on hover */
+}
+
+.wide-button {
+  width: 300px; /* Adjust the width as needed */
+}
+
+.height-button {
+  height: 70px; /* Adjust the width as needed */
+}
+
+.logo{
+  color:orange;
+}
+
+#break{
+  margin-bottom: -0.1%;
+  background-color: hsl(180, 100%, 85%);
+  color: hsl(180, 100%, 85%);
+}
+
+.footer {
+  margin-left: -10%;
+  margin-right: -8.8%;
+}
+
+#body{
+  overflow-x: hidden;
+}
+
+.card-img-top-custom{
+  margin-right: -1%;
+}
+
+.mt-custom {
+  margin-top: 600px; /* Adjust the value as necessary */
+}
+
+.btn-right{
+  float: right;
+  right: 200%;
+}
